@@ -26,7 +26,7 @@ Para usar, você precisará de uma chave de API da Anthropic (para o Claude 3 Ha
 2.  **Execute via `npx`:**
     A forma mais fácil de usar é através do `npx`, que não requer instalação global.
     ```bash
-    npx @seu-usuario-npm/sec-npm install <nome-do-pacote>
+    npx @devgustavor/sec-npm install <nome-do-pacote>
     ```
 
 ## Como Funciona?
