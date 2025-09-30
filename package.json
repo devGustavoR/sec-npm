@@ -1,0 +1,37 @@
+{
+  "name": "@devgustavor/sec-npm",
+  "version": "0.1.0",
+  "description": "Uma ferramenta CLI baseada em IA para detectar ameaças de segurança em pacotes NPM antes da instalação.",
+  "main": "index.js",
+  "bin": {
+    "sec-npm": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devGustavoR/sec-npm.git"
+  },
+  "keywords": [
+    "npm",
+    "security",
+    "cli",
+    "antivirus",
+    "llm",
+    "ai",
+    "cybersecurity",
+    "supply-chain"
+  ],
+  "author": "Gustavo Ribeiro <devgustavor@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://github.com/devGustavoR/sec-npm#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.61.0",
+    "commander": "^14.0.0",
+    "dotenv": "^17.2.2",
+    "npm-registry-fetch": "^19.0.0",
+    "tar": "^7.4.3"
+  }
+}
